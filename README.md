@@ -1,2 +1,14 @@
-# simple-form-validation
-A basic JavaScript form validation project that checks username and password length using prompt-based input.
+# Simple Form Validation
+
+A beginner JavaScript validation project that checks:
+
+- Empty fields
+- Minimum username length
+- Minimum password length
+
+## Technologies Used
+- HTML
+- JavaScript
+
+## Purpose
+Built to practice JavaScript conditionals and validation logic. 
