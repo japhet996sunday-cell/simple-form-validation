@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Validation Form</title>
+</head>
+
+<body>
+
+<h2>My Form Validation</h2>
+
+<script>
+  let username = prompt("Enter your username:");
+  let password = prompt("Enter your password:");
+
+  if (username === "" || password === "") {
+    alert("Fields cannot be empty");
+
+  } else if (username.length < 5) {
+    alert("Username must be at least 5 characters");
+
+  } else if (password.length < 8) {
+    alert("Password must be at least 8 characters");
+
+  } else {
+    alert("Login successful");
+  }
+</script>
+
+</body>
+</html>
